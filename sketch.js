@@ -16,7 +16,7 @@ function draw() {
   let hex = num.toString(16)
 
   for (let i = 0; i < 15; i++) {
-    let index = 15 - i;
+    let index = 14 - i;
     let n = bin[index];
 
     // Draw circles
