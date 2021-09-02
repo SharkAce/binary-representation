@@ -6,6 +6,7 @@ function setup(){
 }
 function draw(){
   let bin = num.toString(2).split('').reverse()
+  let hex = num.toString(16)
   background(54)
   for (let i = 0; i<15; i++){
     bin[i] == '1' ? fill(200,10,10) : fill(255)
@@ -13,6 +14,7 @@ function draw(){
     fill(255)
     bin[i] == '1' ? text('1', 15+(i*40), 100) : text('0', 15+(i*40), 100)
   }
-    text('decimal: '+num, 15, 130)
+    text('hexadecimal:     '+hex, 15, 160)
+    text('decimal:             '+num, 15, 130)
     num ++
 }
