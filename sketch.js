@@ -38,7 +38,7 @@ function draw() {
     }
   }
   // Bottome labels
-  text('binary:               ' + realBin, 15, 130)
+  text('binary:                ' + realBin, 15, 130)
   text('decimal:             ' + num, 15, 190)
   text('hexadecimal:     ' + hex, 15, 160)
 
