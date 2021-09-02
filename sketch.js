@@ -5,6 +5,7 @@ function setup(){
   textSize(20)
 }
 function draw(){
+  let realBin = num.toString(2)
   let bin = num.toString(2).split('').reverse()
   let hex = num.toString(16)
   background(54)
@@ -16,5 +17,6 @@ function draw(){
   }
     text('hexadecimal:     '+hex, 15, 160)
     text('decimal:             '+num, 15, 130)
+    text('binary:               '+realBin, 15, 190)
     num ++
 }
